@@ -1,10 +1,10 @@
 {
-    "name": "name", //The twitch username of the bot account
-    "password": "oautch", //the oauth token for the bot account, NOT THE PASSWORD (https://twitchapps.com/tmi/)
+    "name": "name",
+    "password": "oautch",
     "channels": [
-        "channel" //the channels where the bot should be be active
+        "channel"
     ],
-    "triggers": [ //the triggers, these will issue a response from the bot
+    "triggers": [
         "im",
         "i'm",
         "i am"
